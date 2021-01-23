@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+
+    <title>INKLIX | @muhamadsn</title>
+</head>
+<body>
+<div class="bg"></div>
+
+<div id="post-viewer" class="modal-wrapper">
+    <div class="modal-bg"></div>
+    <div class="modal-box col-sm-10 col-xl-6 offset-sm-1 offset-xl-3">
+        <div class="close-modal"></div>
+        <div id="img-view" class="img-view col-6"></div>
+        <div class="post-content col-6">
+            <div id="post-title" class="post-title"></div>
+            <div class="post-tools container">
+                <div class="post-opt like col-4"></div>
+                <div class="post-opt trusted col-4"></div>
+                <div class="post-opt distrust col-4"></div>
+            </div>
+            <div id="post-text" class="post-text"></div>
+        </div>
+
+    </div>
+</div>
+
+<nav>
+    <div class="container">
+        <div class="logo"></div>
+        <div class="tools">
+            <a href="login.html"><div class="logout"></div></a>
+            <a href="profile.html"><div class="profile"></div></a>
+            <a href="new-post.html"><div class="new"></div></a>
+            <a href="wallet.html"><div class="wallet"></div></a>
+            <div class="nav-bottom" id="follow-bottom">Follow</div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="info row">
+        <div class="profile-pic col-sm-2">
+            <img src="img/img11.jpg">
+        </div>
+        <div class="page-info-wrap col-sm-10">
+            <div class="user-name">Muhamad Soleymannejad</div>
+            <div class="page-info reputation ">
+                <h4>Reputation</h4>
+                <span>15.3k</span>
+            </div>
+            <div class="page-info trust">
+                <h4>Trust Points</h4>
+                <span>10.2k</span>
+            </div>
+            <div class="page-info post-count">
+                <h4>Posts</h4>
+                <span>189</span>
+            </div>
+        </div>
+    </div>
+    <div class="post-grid">
+        <div class="row">
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img4.jpg">
+                <div class="overlay">
+                    <span>Hello!</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+                <p style="display: none;">
+                    Lorem ipsum dolor sit amet, no utroque inermis legendos qui.
+                    Ad oratio nonumy probatus est. Et maiorum detraxit mei, et vel bonorum luptatum assueverit.
+                    Equidem instructior ea quo, nec ea enim iudico.
+                    Eu appareat intellegat instructior sea, per ea imperdiet consequat.
+                </p>
+            </div>
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img6.jpg">
+                <div class="overlay">
+                    <span>Hello world!</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img7.jpg">
+                <div class="overlay">
+                    <span>title</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img5.jpg">
+                <div class="overlay">
+                    <span>title</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img3.jpg">
+                <div class="overlay">
+                    <span>title</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img8.jpg">
+                <div class="overlay">
+                    <span>title</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img11.jpg">
+                <div class="overlay">
+                    <span>title</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img10.jpg">
+                <div class="overlay">
+                    <span>title</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-prev col-4">
+                <img class="post-img" src="img/img1.jpg">
+                <div class="overlay">
+                    <span>title</span>
+                    <div class="options">
+                        <!--<div class="like post-opt"></div>-->
+                        <div class="view-post post-opt"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
